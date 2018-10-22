@@ -16,8 +16,8 @@ browser.get('https://csrp.ctreferee.net/mobile_administration/')
 username = browser.find_element_by_id("username")
 password = browser.find_element_by_id("password")
 
-username.send_keys("dunkindawson")
-password.send_keys("theclaw1234")
+username.send_keys("INPUT_USERNAME")
+password.send_keys("INPUT_PASSWORD")
 
 browser.find_element_by_class_name("ui-btn-hidden").click()
 browser.get('https://csrp.ctreferee.net/mobile_referee_reports/update/referee/')
